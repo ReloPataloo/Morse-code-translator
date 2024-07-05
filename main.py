@@ -12,7 +12,7 @@ while True:
         print(morse_to_text(code))
         break
     elif mode == "2":
-        print("Enter your code: ")
+        print("Enter your text: ")
         code=str(input())
         print(text_to_morse(code))
         break
